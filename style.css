@@ -1,0 +1,82 @@
+@font-face {
+    font-family: ex-fonts;
+    src: url("fonts/Spooky\ Stories.ttf") format("truetype");
+}
+
+* {
+    border: 2px solid red;
+}
+
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+h2 {
+    color: red;
+    background-color: greenyellow;
+}
+
+.recipes li {
+    font-weight: 600;
+    text-align: right;
+    font-family: ex-fonts;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+p {
+    font-size: 30px;
+}
+
+li {
+    font-weight: 800;
+    background-color: aqua;
+}
+
+#html {
+    border: 2px solid green;
+}
+
+#body {
+    border: 2px solid gold;
+}
+
+#h1 {
+    border: 2px solid blue;
+}
+
+#h2 {
+    border: 2px solid red;
+}
+
+#ul {
+    border: 2px solid green;
+}
+
+#li1 {
+    border: 2px solid gold;
+}
+
+#li2 {
+    border: 2px solid blue;
+}
+
+#li3 {
+    border: 2px solid red;
+}
+
+#a1 {
+    border: 2px solid green;
+}
+
+#a2 {
+    border: 2px solid gold;
+}
+
+#a3 {
+    border: 2px solid blue;
+}
