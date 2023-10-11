@@ -1,82 +1,68 @@
 @font-face {
-    font-family: ex-fonts;
+    font-family: scary-fonts;
     src: url("fonts/Spooky\ Stories.ttf") format("truetype");
 }
 
-* {
-    border: 2px solid red;
+html {
+    background-color: #cccccc;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 1px 0;
+    width: 700px;
+    height: calc(100% - 2px);
+    background-color:bisque;
 }
 
 h1 {
-    color: blue;
-    background-color: yellow;
+    text-align: center;
+}
+
+h1.home {
+    margin-bottom: 50px;
+}
+
+h1.h-recipe {
+    font-family: scary-fonts;
+}
+
+.green-box{
+    margin-left: 50px;
+    padding: 5px 20px;
+    width: 250px;
+    border: 3px groove yellowgreen;
 }
 
 h2 {
-    color: red;
-    background-color: greenyellow;
+    margin: 0;
 }
 
-.recipes li {
-    font-weight: 600;
-    text-align: right;
-    font-family: ex-fonts;
+ul {
+    margin: 10px 0;
 }
 
 img {
-    width: 500px;
-    height: auto;
+    display: block;
+    height: 300px;
+    width: auto;
+    margin: 0 auto 30px auto;
 }
 
-p {
-    font-size: 30px;
+.recipe-content {
+    border-top: 2px solid black;
+    padding: 15px;
 }
 
-li {
-    font-weight: 800;
-    background-color: aqua;
+#steps {
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
 }
 
-#html {
-    border: 2px solid green;
-}
-
-#body {
-    border: 2px solid gold;
-}
-
-#h1 {
-    border: 2px solid blue;
-}
-
-#h2 {
-    border: 2px solid red;
-}
-
-#ul {
-    border: 2px solid green;
-}
-
-#li1 {
-    border: 2px solid gold;
-}
-
-#li2 {
-    border: 2px solid blue;
-}
-
-#li3 {
-    border: 2px solid red;
-}
-
-#a1 {
-    border: 2px solid green;
-}
-
-#a2 {
-    border: 2px solid gold;
-}
-
-#a3 {
-    border: 2px solid blue;
+.return-home {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: darkolivegreen;
 }
